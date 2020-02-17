@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.453a4d08.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.55220c4b.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.55220c4b.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.757d4273.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.757d4273.js.map",
+    "static/js/2.942d765e.chunk.js": "/portfolio-react/static/js/2.942d765e.chunk.js",
+    "static/js/2.942d765e.chunk.js.map": "/portfolio-react/static/js/2.942d765e.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "precache-manifest.b43d18fd467819f60d05c10a80428fce.js": "/portfolio-react/precache-manifest.b43d18fd467819f60d05c10a80428fce.js",
+    "service-worker.js": "/portfolio-react/service-worker.js",
+    "static/css/main.453a4d08.chunk.css.map": "/portfolio-react/static/css/main.453a4d08.chunk.css.map",
+    "static/js/2.942d765e.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.942d765e.chunk.js.LICENSE.txt",
+    "static/media/aqi_shanghai.png": "/portfolio-react/static/media/aqi_shanghai.28952463.png",
+    "static/media/colorgame.png": "/portfolio-react/static/media/colorgame.7cf920fb.png",
+    "static/media/ds.png": "/portfolio-react/static/media/ds.19505c09.png",
+    "static/media/heatmap.png": "/portfolio-react/static/media/heatmap.505d2d80.png",
+    "static/media/markercluster.png": "/portfolio-react/static/media/markercluster.b7e24b87.png",
+    "static/media/patatap.png": "/portfolio-react/static/media/patatap.b177ca05.png",
+    "static/media/random_quote.png": "/portfolio-react/static/media/random_quote.21d863f6.png",
+    "static/media/todo_list.png": "/portfolio-react/static/media/todo_list.b8aa2102.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.757d4273.js",
+    "static/js/2.942d765e.chunk.js",
+    "static/css/main.453a4d08.chunk.css",
+    "static/js/main.55220c4b.chunk.js"
+  ]
+}
