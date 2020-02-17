@@ -29,17 +29,19 @@
   font-size: 1.1rem;
   text-decoration: none;
   color: whitesmoke;
-  padding: 0.5rem 1rem 0.4rem 1rem;
+  align-items: center;
+  padding: 0.5rem 1rem;
 }
 
 .active-nav {
   background-color: aliceblue;
   color: #45567d;
   border-radius: 10% 10% 0 0;
+  height: 1.2rem;
 }
 .nav-text:hover {
   /* font-weight: 600; */
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .main {
