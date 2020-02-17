@@ -29,13 +29,13 @@
   font-size: 1.1rem;
   text-decoration: none;
   color: whitesmoke;
-  padding: 1rem;
+  padding: 0.5rem 1rem 0.4rem 1rem;
 }
 
 .active-nav {
   background-color: aliceblue;
   color: #45567d;
-  border-radius: 25% 25% 0 0;
+  border-radius: 10% 10% 0 0;
 }
 .nav-text:hover {
   /* font-weight: 600; */

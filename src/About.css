@@ -10,7 +10,7 @@
     line-height: 2.5rem;
     letter-spacing: 0.02rem;
     padding-top: 5rem;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 
 .About div {
