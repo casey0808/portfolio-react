@@ -6,16 +6,18 @@
 
 .navbar {
   display: flex;
+  position: fixed;
+  width: 100vw;
   background-color: #45567d;
   justify-content: flex-end;
   height: 2.2rem;
   align-items: center;
-  
 }
 
 .header {
   position: fixed;
   left: 1rem;
+  top: 0;
   margin: 0.4rem;
   font-size: 1.2rem;
   text-transform: uppercase;

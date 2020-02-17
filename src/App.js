@@ -7,8 +7,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h2 className="header">Casey C</h2>
       <nav className="navbar">
+        <h2 className="header">Casey C</h2>
         <NavLink exact to="/" activeClassName="active-nav" className="nav-text">Project</NavLink>
         <NavLink exact to="/about" activeClassName="active-nav" className="nav-text">About</NavLink>
       </nav>
