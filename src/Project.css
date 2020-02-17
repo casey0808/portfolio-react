@@ -1,0 +1,31 @@
+.project-tile {
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* grid-column-gap: 1.5rem; */
+    flex-wrap: wrap;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    justify-content: space-evenly;
+    padding: 2rem 3rem;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+.button {
+    background-color: #45567d;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: #45567d 2px solid;
+    padding: 0.4rem 1rem;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: whitesmoke;
+    color: #45567d;
+    transition: 0.2s;
+}
