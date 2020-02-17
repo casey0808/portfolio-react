@@ -2,18 +2,27 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    /* float: left; */
     padding-left: 5rem;
     align-items: flex-start;
-    /* justify-content: center; */
     color: #45567d;
     font-size: 1.2rem;
     line-height: 2.5rem;
     letter-spacing: 0.02rem;
     padding-top: 3rem;
 }
+.About div {
+    text-align: left;
+}
 
 .profile-link {
     color: #45567d;
     text-decoration: none;
     letter-spacing: 2rem;
+}
+
+@media (max-width: 600px) {
+    .About {
+        padding-left: 3rem;
+    }
 }

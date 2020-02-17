@@ -22,6 +22,7 @@
     border: #45567d 2px solid;
     padding: 0.4rem 1rem;
     text-decoration: none;
+    margin-bottom: 1rem;
 }
 
 .button:hover {
