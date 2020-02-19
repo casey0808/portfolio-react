@@ -10,6 +10,8 @@
 
 .Tile:hover {
     box-shadow: 0.5rem 0.5rem 1rem #45567d;
+    transition: 0.1s;
+    transform: scale(1.01);
 }
 
 .Tile-img {
@@ -18,12 +20,13 @@
     margin-bottom: 0.2rem;
 }
 
-.Tile .fa {
+.Tile .fa, .fab {
     text-emphasis: none;
     color: #45567d;
     font-size: 0.85rem;
 }
 
-.Tile .fa:hover {
+.Tile .fa:hover, .fab:hover {
     text-decoration: underline;
+    transition: 0.1s;
 }
