@@ -15,7 +15,7 @@ class Project extends Component {
                     <Tile src={Images[3]} text="Interactive Graph of AQI" link="http://casey0808.github.io/aqi_shanghai/pm25_sh.html" github="https://github.com/casey0808/aqi_shanghai" />
                     <Tile src={Images[4]} text="Data Visualization with D3" link="https://casey0808.github.io/fcc-data-visualization/" github="https://github.com/casey0808/fcc-data-visualization" />
                     <Tile src={Images[5]} text="Geospatial Data Visualization" link="https://cancui.work/real_estate_study/" github="https://github.com/casey0808/real_estate_study" />
-                    <Tile src={Images[6]} text="Patatap Clone" link="http://casey0808.github.io/web_development/patatap_clone/circles.html" github="https://github.com/casey0808/web_development" />
+                    <Tile src={Images[6]} text="Wes Anderson Palette" link="http://casey0808.github.io/wes-anderson-palette" github="https://github.com/casey0808/wes-anderson-palette" />
                     <Tile src={Images[7]} text="Data Science Projects" link="https://cancui.work/datacamp_projects/" github="https://github.com/casey0808/datacamp_projects" />
                 </div>
                 <a className="button" href="https://casey0808.github.io/project.html" target="_blank" rel="noopener noreferrer">See More >></a>

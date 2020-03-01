@@ -3,10 +3,10 @@ import colorgame from './img/colorgame.png';
 import ds from './img/ds.png';
 import heatmap from './img/heatmap.png';
 import markercluster from './img/markercluster.png';
-import patatap from './img/patatap.png';
+// import patatap from './img/patatap.png';
 import random_quote from './img/random_quote.png';
-// import survey_form from './img/survey_form.png';
 import todo_list from './img/todo_list.png';
+import wes from './img/wes.png';
 
 const Images =[
     colorgame,
@@ -15,7 +15,7 @@ const Images =[
     aqi_shanghai,
     heatmap,
     markercluster,
-    patatap,
+    wes,
     ds
 ];
 
