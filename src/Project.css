@@ -37,5 +37,21 @@
 }
 
 @media (max-width: 1100px) {
+    .project-tile {
+        grid-template-columns: repeat(3, 30%);
+    }
+}
 
+@media (max-width: 880px) {
+    .project-tile {
+        grid-template-columns: repeat(2, 40%);
+    }
+}
+
+@media (max-width: 600px) {
+    .project-tile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
