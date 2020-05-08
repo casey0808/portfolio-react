@@ -1,32 +1,38 @@
 .Tile {
-    width: 14.5rem;
-    height: 16rem;
-    margin: 1rem 2rem 2rem 2rem;
-    background-color: white;
-    line-height: 0.6rem;
-    padding-bottom: 1.3rem;
-    box-shadow: 0.1rem 0.1rem 0.2rem #5e75aa;
+  width: 14.5rem;
+  height: 16rem;
+  margin: 1rem 2rem 2rem 2rem;
+  background-color: white;
+  /* line-height: 1rem; */
+  padding-bottom: 1.2rem;
+  box-shadow: 0.1rem 0.1rem 0.2rem #5e75aa;
 }
 
 .Tile:hover {
-    box-shadow: 0.5rem 0.5rem 1rem #45567d;
-    transition: 0.1s;
-    transform: scale(1.01);
+  box-shadow: 0.5rem 0.5rem 1rem #45567d;
+  transition: 0.1s;
+  transform: scale(1.01);
 }
 
 .Tile-img {
-    width: 14.5rem;
-    height: 13rem;
-    margin-bottom: 0.2rem;
+  width: 14.5rem;
+  height: 13rem;
+  margin-bottom: 0.2rem;
 }
 
-.Tile .fa, .fab {
-    text-emphasis: none;
-    color: #45567d;
-    font-size: 0.85rem;
+.Tile .fa,
+.fab {
+  text-emphasis: none;
+  color: #45567d;
+  font-size: 0.85rem;
 }
 
-.Tile .fa:hover, .fab:hover {
-    text-decoration: underline;
-    transition: 0.1s;
+.Tile .fa:hover,
+.fab:hover {
+  text-decoration: underline;
+  transition: 0.1s;
 }
+
+/* span#link-text {
+  padding-top: 2rem;
+} */

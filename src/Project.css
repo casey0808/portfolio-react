@@ -1,57 +1,62 @@
 .project-tile {
-    /* display: flex; */
-    display: grid;
-    box-sizing: border-box;
-    /* width: 100%; */
-    grid-template-columns: repeat(4, 20%);
-    column-gap: 2rem;
-    /* flex-wrap: wrap; */
-    overflow: scroll;
-    scroll-behavior: smooth;
-    justify-content: center;
-    /* padding: 4rem 3rem 1rem 3rem; */
-    padding-top: 4rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    margin-bottom: 0;
-    font-size: 0.95rem;
+  /* display: flex; */
+  display: grid;
+  box-sizing: border-box;
+  /* width: 100%; */
+  grid-template-columns: repeat(4, 20%);
+  column-gap: 2rem;
+  /* flex-wrap: wrap; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  justify-content: center;
+  /* padding: 4rem 3rem 1rem 3rem; */
+  padding-top: 5%;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.project-tile::-webkit-scrollbar {
+  display: none;
 }
 
 .button {
-    background-color: #45567d;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 0.9rem;
-    font-weight: 500;
-    border-radius: 10px;
-    border: #45567d 2px solid;
-    padding: 0.4rem 1rem;
-    text-decoration: none;
-    margin-bottom: 1rem;
+  background-color: #45567d;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 10px;
+  border: #45567d 2px solid;
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  margin-bottom: 1rem;
 }
 
 .button:hover {
-    background-color: whitesmoke;
-    color: #45567d;
-    transition: 0.2s;
+  background-color: whitesmoke;
+  color: #45567d;
+  transition: 0.2s;
 }
 
 @media (max-width: 1100px) {
-    .project-tile {
-        grid-template-columns: repeat(3, 30%);
-    }
+  .project-tile {
+    grid-template-columns: repeat(3, 30%);
+  }
 }
 
 @media (max-width: 880px) {
-    .project-tile {
-        grid-template-columns: repeat(2, 40%);
-    }
+  .project-tile {
+    grid-template-columns: repeat(2, 40%);
+  }
 }
 
 @media (max-width: 600px) {
-    .project-tile {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .project-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
