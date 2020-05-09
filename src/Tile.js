@@ -10,7 +10,7 @@ class Tile extends Component {
           src={this.props.src}
           alt={this.props.text}
         ></img>
-        <p>{this.props.text}</p>
+        <p id='title-text'>{this.props.text}</p>
         <span id='link-text'>
           <a href={this.props.link} target='_blank' rel='noopener noreferrer'>
             <i className='fa fa-link'> play online </i>

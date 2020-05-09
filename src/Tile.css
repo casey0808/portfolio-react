@@ -33,6 +33,11 @@
   transition: 0.1s;
 }
 
-/* span#link-text {
-  padding-top: 2rem;
-} */
+.Tile #link-text {
+  margin-top: 0.5rem;
+}
+
+.Tile #title-text {
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+}
