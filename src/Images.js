@@ -4,19 +4,20 @@ import ds from './img/ds.png';
 import heatmap from './img/heatmap.png';
 import markercluster from './img/markercluster.png';
 // import patatap from './img/patatap.png';
-import random_quote from './img/random_quote.png';
+// import random_quote from './img/random_quote.png';
 import todo_list from './img/todo_list.png';
 import wes from './img/wes.png';
+import markdown from './img/markdown_previewer.png';
 
-const Images =[
+const Images = [
     colorgame,
     todo_list,
-    random_quote,
+    markdown,
     aqi_shanghai,
     heatmap,
     markercluster,
     wes,
-    ds
+    ds,
 ];
 
 export default Images;
