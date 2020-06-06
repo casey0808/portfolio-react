@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ecbede0f2bce4019a2fe1a65aba7a1dc",
+    "revision": "9acfffa724524678bcd041a96d8a4f47",
     "url": "/index.html"
   },
   {
-    "revision": "20abd3076615b1b54274",
+    "revision": "3715f56006555fdaa423",
     "url": "/static/css/main.f3fc6d35.chunk.css"
   },
   {
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.942d765e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20abd3076615b1b54274",
-    "url": "/static/js/main.09211eaa.chunk.js"
+    "revision": "3715f56006555fdaa423",
+    "url": "/static/js/main.b508aecb.chunk.js"
   },
   {
     "revision": "77d451e7038c8864e2b2",
     "url": "/static/js/runtime-main.6e48ae5f.js"
-  },
-  {
-    "revision": "2895246373cfeccf7344422a9fc3cfe2",
-    "url": "/static/media/aqi_shanghai.28952463.png"
   },
   {
     "revision": "7cf920fbdd63371f1d61046115b44f2c",
@@ -46,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b7e24b87761ea12370972860f18128de",
     "url": "/static/media/markercluster.b7e24b87.png"
+  },
+  {
+    "revision": "4cdcd2f4ad757ad6988853ca2b9b2894",
+    "url": "/static/media/pomo_clock.4cdcd2f4.png"
   },
   {
     "revision": "b8aa210261f5e297825fb88801e865e2",
